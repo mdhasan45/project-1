@@ -1,9 +1,3 @@
-header{
-    width: 100%;
-    height: 100vh;
-    background-color: #ffffff;
-}
-
 .side-nav{
     width: 330px;
     height: 100%;
@@ -12,6 +6,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    border-right: 1px solid #2f2727;
 }
 
 .fa-brands{
@@ -44,6 +39,7 @@ header{
 }
 
 .nav-links li a{
+    height: 44px;
     color: #fff;
     text-decoration: none;
     padding: 10px 10px;
@@ -75,7 +71,7 @@ header{
 
 .nav-links li:hover a{
     color: #fff;
-    transition: 0.3s;
+    transition: 5s;
 }
 
 .nav-links li:hover ~ .active{
@@ -87,13 +83,26 @@ header{
 }
 
 .nav-links li:nth-child(2):hover~ .active{
-    top: 25%;
+    top: 16.8%;
 }
 
 .nav-links li:nth-child(3):hover~ .active{
-    top: 47%;
+    top: 31%;
 }
 
 .nav-links li:nth-child(4):hover~ .active{
-    top: 60%;
+    top: 45.2%;
 }
+
+.nav-links li:nth-child(5):hover~ .active{
+    top: 59.4%;
+}
+
+.nav-links li:nth-child(6):hover~ .active{
+    top: 73.6%;
+}
+
+.nav-links li:nth-child(7):hover~ .active{
+    top: 87.8%;
+}
+
