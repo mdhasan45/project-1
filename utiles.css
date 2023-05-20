@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+}
+
+.container{
+    margin: 0 500px;
+}
+
+
+.space{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
